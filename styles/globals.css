@@ -1,16 +1,23 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outline {
+    color: white;
+    outline-style: none;
+    text-shadow:
+     -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+/* Real outline for modern browsers */
+@supports((text-stroke: 0.5px white) or (-webkit-text-stroke: 0.5px white)) {
+    .outline {
+        color: transparent;
+        -webkit-text-stroke: 0.5px white;
+    text-stroke: 0.5px white;
+        text-shadow: none;
+    }
 }
