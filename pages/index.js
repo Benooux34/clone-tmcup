@@ -27,7 +27,7 @@ export default function Home() {
             <h1 className="sm:text-[80px] outline hover:text-white hover:text-[90px] transition-all duration-500">TRACKMANIA CUP</h1>
             <h2 className="sm:text-[24px] tracking-[10px]">2022 EDITION</h2>
           </div>
-          <div className="p-[30px] bg-info rounded-[5px] ml-[50px] w-[86%]">
+          <div className="p-[30px] bg-info rounded-[5px] ml-[50px] w-[70%] mt-5">
             <div className="leading-6">
               <p className="text-white">Les inscriptions sont terminées. A bientôt pour le tournoi. <br /> Vous pouvez nous rejoindre sur Discord : <span className="text-[#43E916] font-bold cursor-pointer">Discord Zerator Cup</span>
               </p>
