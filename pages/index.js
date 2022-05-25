@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="flex sm:justify-between">
         {/* TEXT */}
-        <div className="sm:w-[40%] ml-[50px]">
+        <div className="sm:w-[50%] ml-[50px]">
           <div className="text-center text-white font-bold leading-tight">
             <h1 className="sm:text-[80px] outline hover:text-white hover:text-[85px] transition-all duration-500">TRACKMANIA CUP</h1>
             <h2 className="sm:text-[24px] tracking-[10px]">2022 EDITION</h2>
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
         {/* VIDEO */}
-        <div className="sm:w-[45%] mt-[-100px]">
+        <div className="sm:w-[50%] mt-[-100px]">
           <video>
             <source src="car.mp4" type="video/mp4" />
           </video>
