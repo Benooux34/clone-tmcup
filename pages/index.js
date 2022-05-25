@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         {/* VIDEO */}
         <div className="sm:w-[50%] mt-[-150px]">
-          <video autoplay>
+          <video controls>
             <source src="car.mp4" type="video/mp4" />
           </video>
         </div>
