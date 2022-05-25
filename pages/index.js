@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 
-import ReactPlayer from 'react-player/lazy'
 
 // BACKGROUND GREEN CIRCLE BLUR
 function Bg () {
@@ -49,7 +48,9 @@ export default function Home() {
         </div>
         {/* VIDEO */}
         <div className="sm:w-[50%] mt-[-150px]">
-          <ReactPlayer url='car.mp4' playing='true' width='700px' height='700px' />
+          <video autoplay loop preload>
+            <source src="car.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
 
