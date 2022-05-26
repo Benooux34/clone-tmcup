@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="flex sm:justify-between">
         {/* TEXT */}
-        <div className="sm:w-[40%] sm:ml-[50px]">
+        <div className="sm:w-[40%] sm:ml-[50px] mb-20 sm:mb-0">
           <div className="text-center text-white font-bold leading-tight">
             <motion.h1 whileHover={{scale: 1.17}} className="text-[35px] sm:text-[68px] outline hover:text-white transition-all duration-500">TRACKMANIA CUP</motion.h1>
             <h2 className="sm:text-[24px] tracking-[10px]">2022 EDITION</h2>
@@ -41,7 +41,7 @@ export default function Home() {
               <li>Samedi 14 de 16h CEST à 23h CEST</li>
               <li>Dimanche 15 de 18h à 23h CEST</li>
             </ul>
-            <div className="mt-5 mb-10 space-x-[5px]">
+            <div className="mt-5 space-x-[5px]">
               <button className="text-[#43E916] border border-[#43E916] px-[15px] py-[10px] text-[12.8px] font-bold rounded-[4px] hover:bg-[#43E916] hover:text-white transition-all duration-300">RÈGLEMENT FR</button>
               <button className="text-[#43E916] border border-[#43E916] px-[15px] py-[10px] text-[12.8px] font-bold rounded-[4px] hover:bg-[#43E916] hover:text-white transition-all duration-300">RÈGLEMENT EN</button>
               <button className="text-[#43E916] border border-[#43E916] px-[15px] py-[10px] text-[12.8px] font-bold rounded-[4px] hover:bg-[#43E916] hover:text-white transition-all duration-300">LISTE DES DUOS</button>
