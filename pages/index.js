@@ -41,7 +41,7 @@ export default function Home() {
               <li>Samedi 14 de 16h CEST à 23h CEST</li>
               <li>Dimanche 15 de 18h à 23h CEST</li>
             </ul>
-            <div className="mt-5 space-x-[5px]">
+            <div className="mt-5 mb-10 space-x-[5px]">
               <button className="text-[#43E916] border border-[#43E916] px-[15px] py-[10px] text-[12.8px] font-bold rounded-[4px] hover:bg-[#43E916] hover:text-white transition-all duration-300">RÈGLEMENT FR</button>
               <button className="text-[#43E916] border border-[#43E916] px-[15px] py-[10px] text-[12.8px] font-bold rounded-[4px] hover:bg-[#43E916] hover:text-white transition-all duration-300">RÈGLEMENT EN</button>
               <button className="text-[#43E916] border border-[#43E916] px-[15px] py-[10px] text-[12.8px] font-bold rounded-[4px] hover:bg-[#43E916] hover:text-white transition-all duration-300">LISTE DES DUOS</button>
