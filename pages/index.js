@@ -25,12 +25,12 @@ export default function Home() {
 
       <div className="flex sm:justify-between">
         {/* TEXT */}
-        <div className="sm:w-[40%] ml-[50px]">
+        <div className="sm:w-[40%] sm:ml-[50px]">
           <div className="text-center text-white font-bold leading-tight">
-            <motion.h1 whileHover={{scale: 1.17}} className="sm:text-[68px] outline hover:text-white transition-all duration-500">TRACKMANIA CUP</motion.h1>
+            <motion.h1 whileHover={{scale: 1.17}} className="text-[35px] sm:text-[68px] outline hover:text-white transition-all duration-500">TRACKMANIA CUP</motion.h1>
             <h2 className="sm:text-[24px] tracking-[10px]">2022 EDITION</h2>
           </div>
-          <div className="p-[30px] bg-info rounded-[5px] mt-5">
+          <div className="p-[30px] bg-info rounded-[5px] mt-0 sm:mt-5">
             <div className="leading-6">
               <p className="text-white">Les inscriptions sont terminées. A bientôt pour le tournoi. <br /> Vous pouvez nous rejoindre sur Discord : <span className="text-[#43E916] font-bold cursor-pointer">Discord Zerator Cup</span>
               </p>
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         {/* VIDEO */}
-        <div className="sm:w-[50%] mt-[-150px]">
+        <div className="w-0 xl:w-[50%] mt-[-150px]">
           <video loop>
             <source src="car.mp4" type="video/mp4" />
           </video>
