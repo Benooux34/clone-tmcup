@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="flex sm:justify-between">
         {/* TEXT */}
-        <div className="sm:w-[40%] sm:ml-[50px] mb-20 sm:mb-0">
+        <div className="sm:w-[40%] sm:ml-[50px]">
           <div className="text-center text-white font-bold leading-tight">
             <motion.h1 whileHover={{scale: 1.17}} className="text-[35px] sm:text-[68px] outline hover:text-white transition-all duration-500">TRACKMANIA CUP</motion.h1>
             <h2 className="sm:text-[24px] tracking-[10px]">2022 EDITION</h2>
